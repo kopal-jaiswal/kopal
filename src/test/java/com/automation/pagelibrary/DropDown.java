@@ -13,6 +13,8 @@ static Logger log=Logger.getLogger(Login.class);
 By dropDownElement = By.xpath("/html/body/select");
 By EnterCountryButton=By.xpath("//*[@class='responsive-tabs']/li[2]");
 By EnterCountryTextBox=By.xpath("/html/body/div[1]/span/input");
+By Interaction=By.xpath("//*[@id='toggleNav']/li[2]/a");
+By Draggable=By.xpath("//*[@id='toggleNav']/li[2]/ul/li[1]/a");
 //By frame=By.name("dropdown/default.html");
  
  public DropDown(WebDriver driver) {
@@ -45,5 +47,10 @@ By EnterCountryTextBox=By.xpath("/html/body/div[1]/span/input");
 	public void EnterTextInEnterCountryTextBox(String country){
 		driver.findElement(EnterCountryTextBox).sendKeys(country);
 		
+	}
+	
+	public void clickOnInteraction() {
+		driver.findElement(Interaction).click();
+		driver.findElement(Draggable).click();
 	}
 }
