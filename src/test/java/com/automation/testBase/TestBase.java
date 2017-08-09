@@ -25,7 +25,7 @@ public void init() throws IOException {
 }
 
 public void loadPropertiesFile() throws IOException{
- f=new File("C:\\Users\\Kopal\\eclipse_neon_work\\UIAutomation\\src\\test\\java\\com\\automation\\config\\config.properties");
+ f=new File("C:\\Users\\Kopal\\eclipse_neon_work\\TodoAutomation\\src\\test\\java\\com\\automation\\config\\config.properties");
  			
 	FileInputStream fis=new FileInputStream(f);
 	repository.load(fis);

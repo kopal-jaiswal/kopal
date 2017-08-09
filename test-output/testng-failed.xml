@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.testScripts.TC_LoginWayToAutomation">
+      <class name="com.automation.testScripts.TC_AddingTask">
         <methods>
-          <include name="clickSignIn"/>
           <include name="setUp"/>
           <include name="quitBrowser"/>
+          <include name="EnterMultipleTasks"/>
         </methods>
-      </class> <!-- com.automation.testScripts.TC_LoginWayToAutomation -->
+      </class> <!-- com.automation.testScripts.TC_AddingTask -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
