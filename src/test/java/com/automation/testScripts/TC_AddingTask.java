@@ -23,6 +23,7 @@ public class TC_AddingTask extends TestBase {
 		init();
 	}
 	@Test(priority=1)
+//	@Test(dataProvider="enterTask")
 	public void EnterTask(){
 		addTodo=new AddTodo(driver);
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
@@ -34,7 +35,7 @@ public class TC_AddingTask extends TestBase {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,dataProvider="enterTask")
 	public void EnterMultipleTasks(){
 		addTodo=new AddTodo(driver);
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);

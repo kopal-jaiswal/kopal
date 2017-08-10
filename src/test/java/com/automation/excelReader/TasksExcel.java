@@ -69,19 +69,24 @@ XSSFRow row;
 			int index=workbook.getSheetIndex(sheetName);
 			sheet=workbook.getSheetAt(index);
 			XSSFRow row=sheet.getRow(0);
-//			row=sheet.getRow(row)
-			for(int i=0; i<row.getLastCellNum();i++){
-//				if(row.getCell(i).getStringCellValue().equals(colNum))
-				row=sheet.getRow(i);
-				XSSFCell cell=row.getCell(colNum);
-				if(cell.getStringCellValue().equals("Tasks To Be Added")){
-					return cell.getStringCellValue();
-				}
-			}
+			row=sheet.getRow(rowNum-1);
+			XSSFCell cell=row.getCell(colNum);
+			return cell.getStringCellValue();
 	}
 		catch(Exception e){
 			e.printStackTrace();
 		}
 		return null;
 }
+	public static void main(String[] args) {
+		String path = "C:\\Users\\Kopal\\eclipse_neon_work\\TodoAutomation\\src\\test\\java\\com\\automation\\utils\\TodoApplication.xlsx";
+		TasksExcel obj = new TasksExcel(path);
+		// System.out.println(obj.getCellData("Login", "UserName", 4));
+
+		System.out.println(obj.getRowCount("Sheet1"));
+		
+		System.out.println(obj.getColumnCount("Sheet1"));
+		
+		System.out.println(obj.getCellData("Sheet1", 2, 3));
+	}
 }
