@@ -2,7 +2,9 @@ package com.automation.pagelibrary;
 
 import static org.testng.Assert.assertEquals;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -87,4 +89,30 @@ public boolean clearCompletedLinkDisplay() {
 public void clickOnClearCompeleted() {
 	driver.findElement(clearCompleted).click();
 }
+
+public void DeleteDuplicateData() {
+	count=0;
+	List<WebElement> li=driver.findElements(this.listOfTasks);
+	Set<WebElement> duplicates=new HashSet<WebElement>();
+	Set<WebElement> unique= new HashSet<WebElement>();
+	for(WebElement element:li){
+		if(!unique.add(element)){
+			System.out.println(duplicates.add(element));
+		}
+	}
+}
+
+public void ClickToCompleted(String element) {
+	// TODO Auto-generated method stub
+	String list1="//*[@class='todo-list']/li[";
+	String list2="]/div/input";
+	List <WebElement> li=driver.findElements(this.listOfTasks);
+	for(WebElement list:li){
+		listCount++;
+		if(list.getText().equals(element)){
+			driver.findElement(By.xpath(list1+ listCount+list2)).click();
+		}
+	}
+}
+
 }

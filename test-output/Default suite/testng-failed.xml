@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.testScripts.TC_AddingTask">
+      <class name="com.automation.testScripts.TC_UsingExcel">
         <methods>
+          <include name="ClearCompletedTasks"/>
           <include name="setUp"/>
-          <include name="quitBrowser"/>
-          <include name="EnterTask"/>
-          <include name="EnterMultipleTasks"/>
         </methods>
-      </class> <!-- com.automation.testScripts.TC_AddingTask -->
+      </class> <!-- com.automation.testScripts.TC_UsingExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

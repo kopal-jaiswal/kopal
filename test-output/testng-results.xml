@@ -1,95 +1,1386 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="66" passed="66">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37067" started-at="2017-08-10T19:06:10Z" finished-at="2017-08-10T19:06:47Z">
+  <suite name="Default suite" duration-ms="68407" started-at="2017-08-14T19:16:03Z" finished-at="2017-08-14T19:17:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37067" started-at="2017-08-10T19:06:10Z" finished-at="2017-08-10T19:06:47Z">
-      <class name="com.automation.testScripts.TC_AddingTask">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testScripts.TC_AddingTask@5792a0]" name="setUp" is-config="true" duration-ms="36768" started-at="2017-08-10T12:06:10Z" finished-at="2017-08-10T12:06:47Z">
+    <test name="Default test" duration-ms="68407" started-at="2017-08-14T19:16:03Z" finished-at="2017-08-14T19:17:12Z">
+      <class name="com.automation.testScripts.TC_UsingExcel">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="setUp" is-config="true" duration-ms="11408" started-at="2017-08-15T00:46:03Z" finished-at="2017-08-15T00:46:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="EnterTask()[pri:0, instance:com.automation.testScripts.TC_AddingTask@5792a0]" name="EnterTask" duration-ms="0" started-at="2017-08-10T12:06:47Z" data-provider="enterTask" finished-at="2017-08-10T12:06:47Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method public void com.automation.testScripts.TC_AddingTask.EnterTask() requires a @DataProvider named : enterTask]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void com.automation.testScripts.TC_AddingTask.EnterTask() requires a @DataProvider named : enterTask
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:336)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:498)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="689" started-at="2017-08-15T00:46:16Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EnterTask -->
-        <test-method status="FAIL" signature="EnterMultipleTasks()[pri:2, instance:com.automation.testScripts.TC_AddingTask@5792a0]" name="EnterMultipleTasks" duration-ms="0" started-at="2017-08-10T12:06:47Z" data-provider="enterTask" finished-at="2017-08-10T12:06:47Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method public void com.automation.testScripts.TC_AddingTask.EnterMultipleTasks() requires a @DataProvider named : enterTask]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void com.automation.testScripts.TC_AddingTask.EnterMultipleTasks() requires a @DataProvider named : enterTask
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:336)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:498)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="2" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="1" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Planning]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="1" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Grooming]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="2" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="2" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unit Testing ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="1" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="1" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="1" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="2" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="2" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="2" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integration Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterSingleTask(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterSingleTask" duration-ms="2" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[System Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSingleTask -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="2" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterMultipleTasks -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.automation.testScripts.TC_AddingTask@5792a0]" name="quitBrowser" is-config="true" duration-ms="1" started-at="2017-08-10T12:06:47Z" finished-at="2017-08-10T12:06:47Z">
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="456" started-at="2017-08-15T00:46:17Z" data-provider="enterTask" finished-at="2017-08-15T00:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- com.automation.testScripts.TC_AddingTask -->
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="293" started-at="2017-08-15T00:46:18Z" data-provider="enterTask" finished-at="2017-08-15T00:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Planning]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="282" started-at="2017-08-15T00:46:18Z" data-provider="enterTask" finished-at="2017-08-15T00:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Grooming]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="315" started-at="2017-08-15T00:46:18Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="368" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unit Testing ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="1" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="1" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="1" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="5" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="2" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="2" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integration Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="EnterMultipleTasks(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterMultipleTasks" duration-ms="1" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[System Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMultipleTasks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="519" started-at="2017-08-15T00:46:19Z" data-provider="enterTask" finished-at="2017-08-15T00:46:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="431" started-at="2017-08-15T00:46:20Z" data-provider="enterTask" finished-at="2017-08-15T00:46:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="324" started-at="2017-08-15T00:46:20Z" data-provider="enterTask" finished-at="2017-08-15T00:46:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Planning]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="306" started-at="2017-08-15T00:46:20Z" data-provider="enterTask" finished-at="2017-08-15T00:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Grooming]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="347" started-at="2017-08-15T00:46:21Z" data-provider="enterTask" finished-at="2017-08-15T00:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="366" started-at="2017-08-15T00:46:21Z" data-provider="enterTask" finished-at="2017-08-15T00:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unit Testing ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="465" started-at="2017-08-15T00:46:21Z" data-provider="enterTask" finished-at="2017-08-15T00:46:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="402" started-at="2017-08-15T00:46:22Z" data-provider="enterTask" finished-at="2017-08-15T00:46:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="703" started-at="2017-08-15T00:46:22Z" data-provider="enterTask" finished-at="2017-08-15T00:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="282" started-at="2017-08-15T00:46:23Z" data-provider="enterTask" finished-at="2017-08-15T00:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="978" started-at="2017-08-15T00:46:23Z" data-provider="enterTask" finished-at="2017-08-15T00:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="670" started-at="2017-08-15T00:46:24Z" data-provider="enterTask" finished-at="2017-08-15T00:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integration Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="DeleteDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="DeleteDuplicateTsks" duration-ms="560" started-at="2017-08-15T00:46:25Z" data-provider="enterTask" finished-at="2017-08-15T00:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[System Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="1" started-at="2017-08-15T00:46:26Z" data-provider="enterTask" finished-at="2017-08-15T00:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="1" started-at="2017-08-15T00:46:26Z" data-provider="enterTask" finished-at="2017-08-15T00:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="1" started-at="2017-08-15T00:46:26Z" data-provider="enterTask" finished-at="2017-08-15T00:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Planning]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="1" started-at="2017-08-15T00:46:26Z" data-provider="enterTask" finished-at="2017-08-15T00:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Grooming]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="1" started-at="2017-08-15T00:46:26Z" data-provider="enterTask" finished-at="2017-08-15T00:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="2" started-at="2017-08-15T00:46:26Z" data-provider="enterTask" finished-at="2017-08-15T00:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unit Testing ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="544" started-at="2017-08-15T00:46:26Z" data-provider="enterTask" finished-at="2017-08-15T00:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="728" started-at="2017-08-15T00:46:26Z" data-provider="enterTask" finished-at="2017-08-15T00:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="692" started-at="2017-08-15T00:46:27Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="2" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integration Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="EnterDuplicateTsks(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="EnterDuplicateTsks" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[System Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDuplicateTsks -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Planning]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="2" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Grooming]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="2" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unit Testing ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="1" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Component Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="2674" started-at="2017-08-15T00:46:28Z" data-provider="enterTask" finished-at="2017-08-15T00:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Gathering]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="503" started-at="2017-08-15T00:46:31Z" data-provider="enterTask" finished-at="2017-08-15T00:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Requirement Analysis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="2" started-at="2017-08-15T00:46:31Z" data-provider="enterTask" finished-at="2017-08-15T00:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integration Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="MoveTasksToCompleted(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="MoveTasksToCompleted" duration-ms="2" started-at="2017-08-15T00:46:31Z" data-provider="enterTask" finished-at="2017-08-15T00:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[System Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveTasksToCompleted -->
+        <test-method status="PASS" signature="ClearCompletedTasks()[pri:6, instance:com.automation.testScripts.TC_UsingExcel@5b275dab]" name="ClearCompletedTasks" duration-ms="40503" started-at="2017-08-15T00:46:31Z" finished-at="2017-08-15T00:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearCompletedTasks -->
+      </class> <!-- com.automation.testScripts.TC_UsingExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

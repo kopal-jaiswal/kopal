@@ -25,7 +25,7 @@ public void init() throws IOException {
 }
 
 public void loadPropertiesFile() throws IOException{
- f=new File("C:\\Users\\Kopal\\eclipse_neon_work\\TodoAutomation\\src\\test\\java\\com\\automation\\config\\config.properties");
+ f=new File("C:\\Users\\mom\\git\\kopal\\src\\test\\java\\com\\automation\\config\\config.properties");
  			
 	FileInputStream fis=new FileInputStream(f);
 	repository.load(fis);
@@ -39,7 +39,7 @@ public WebDriver browser(String browser) {
 		return driver;
 	}
 	else if(browser.equals("chrome")|| browser.equals("CHROME")){
-		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\java-neon\\eclipse\\chromedriver.exe");
 		driver=new ChromeDriver();
 //		driver.manage().window().maximize();
 		return driver;
