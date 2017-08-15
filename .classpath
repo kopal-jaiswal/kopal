@@ -22,5 +22,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/mom/Desktop/ToBeDeleted/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mom/Desktop/ToBeDeleted/jcommander-1.64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mom/Desktop/ToBeDeleted/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mom/Desktop/ToBeDeleted/snakeyaml-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mom/Desktop/ToBeDeleted/velocity-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mom/Desktop/ToBeDeleted/velocity-dep-1.4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

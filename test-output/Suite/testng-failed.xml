@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+<suite name="Failed suite [Suite]">
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="Test(failed)(failed)">
+  <test name="Test(failed)">
     <classes>
       <class name="com.automation.testScripts.PositiveTestCases">
         <methods>
@@ -13,6 +13,11 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.automation.testScripts.PositiveTestCases -->
+      <class name="com.automation.testScripts.OtherTestCases">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.testScripts.OtherTestCases -->
     </classes>
-  </test> <!-- Test(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -78,15 +78,15 @@ XSSFRow row;
 		}
 		return null;
 }
-	public static void main(String[] args) {
-		String path = "C:\\Users\\mom\\git\\kopal\\src\\test\\java\\com\\automation\\utils\\TodoApplication.xlsx";
-		TasksExcel obj = new TasksExcel(path);
-		// System.out.println(obj.getCellData("Login", "UserName", 4));
-
-		System.out.println(obj.getRowCount("Sheet1"));
-		
-		System.out.println(obj.getColumnCount("Sheet1"));
-		
-		System.out.println(obj.getCellData("Sheet1", 2, 3));
-	}
+//	public static void main(String[] args) {
+//		String path = "C:\\Users\\mom\\git\\kopal\\src\\test\\java\\com\\automation\\utils\\TodoApplication.xlsx";
+//		TasksExcel obj = new TasksExcel(path);
+//		// System.out.println(obj.getCellData("Login", "UserName", 4));
+//
+//		System.out.println(obj.getRowCount("Sheet1"));
+//		
+//		System.out.println(obj.getColumnCount("Sheet1"));
+//		
+//		System.out.println(obj.getCellData("Sheet1", 2, 3));
+//	}
 }

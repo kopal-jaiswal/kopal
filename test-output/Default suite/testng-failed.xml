@@ -3,12 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.testScripts.TC_UsingExcel">
+      <class name="com.automation.testScripts.PositiveTestCases">
         <methods>
-          <include name="ClearCompletedTasks"/>
+          <include name="DeleteDuplicateTsks" invocation-numbers="14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"/>
+          <include name="EnterMultipleTasks" invocation-numbers="14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"/>
+          <include name="EnterSingleTask" invocation-numbers="14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"/>
+          <include name="EnterDuplicateTsks" invocation-numbers="14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"/>
+          <include name="MoveTasksToCompleted" invocation-numbers="14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.automation.testScripts.TC_UsingExcel -->
+      </class> <!-- com.automation.testScripts.PositiveTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

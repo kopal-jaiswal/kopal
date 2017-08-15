@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="75"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.261">
+  <properties />
+  
+  
+            <testcase name="EnterMoreThanFiftyTasks" time="0.413" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.840" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.397" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.380" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.015" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.388" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.000" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.355" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.004" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.000" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.003" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.373" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.817" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.004" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.003" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.634" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.394" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.003" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="1.394" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.384" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForAlphaNumericCharacters" time="0.009" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.003" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.003" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="14.579" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForLowerAndUpperCase" time="0.439" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="EnterMoreThanFiftyTasks" time="0.353" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="CheckForLengthyTask" time="0.001" classname="com.automation.testScripts.OtherTestCases" />
+                <testcase name="TaskCheckForSymbols" time="0.002" classname="com.automation.testScripts.OtherTestCases" />
+      
+</testsuite>
